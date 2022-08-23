@@ -1,7 +1,4 @@
-import time
-import os
-import random
-import string
+import time, os, random, string
 from os import system, name
 from math import *
 try:
@@ -55,9 +52,6 @@ def main():
                     scriere_def.write('\n'+'\t'+ '\t'+ result_str_Variabiles_easy+' = '+ str(RLenght_extreme ** RLenght_extreme * RLenght_extreme))
                     scriere_def.write('\n'+'\t'+ '\t'+ result_str_Variabiles_easy+' = '+ "'{}'".format(result_str_Variabiles_easy))        
                 Variabiles_easy(RLenght_extreme)
-    elif choose_modeCode >= 50:
-        print('I told you to be < 50')
-        exit(0)
     else:
         print('This option is invalid!')
         exit(0)
